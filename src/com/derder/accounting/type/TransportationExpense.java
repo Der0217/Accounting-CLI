@@ -1,4 +1,4 @@
-package com.derder.accounting;
+package com.derder.accounting.type;
 
 public class TransportationExpense extends ExpenseEntry{
     public TransportationExpense(int year,int month,int day,String description, double amount) {

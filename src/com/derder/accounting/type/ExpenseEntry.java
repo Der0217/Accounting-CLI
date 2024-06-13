@@ -1,4 +1,4 @@
-package com.derder.accounting;
+package com.derder.accounting.type;
 
 import java.text.MessageFormat;
 import java.time.LocalDate;

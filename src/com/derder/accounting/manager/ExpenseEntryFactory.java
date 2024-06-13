@@ -1,6 +1,6 @@
-package com.derder.accounting;
+package com.derder.accounting.manager;
 
-import java.time.LocalDate;
+import com.derder.accounting.type.*;
 
 public class ExpenseEntryFactory {
     public static ExpenseEntry createExpenseEntry(String type, int year, int month, int day, String description, double amount) {

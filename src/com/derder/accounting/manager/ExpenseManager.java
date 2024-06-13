@@ -1,18 +1,16 @@
-package com.derder.accounting;
+package com.derder.accounting.manager;
+
+import com.derder.accounting.type.ExpenseEntry;
 
 import java.io.*;
 import java.util.*;
-import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
 import java.time.LocalDate;
-import java.util.stream.Collectors;
 
 public class ExpenseManager {
     private static Map<String,List<ExpenseEntry>> allExpense= new HashMap();
     private LocalDate date = LocalDate.now();
-    String dataPath = "src/Data.txt";
+    String dataPath = "src/com/derder/accounting/type/Data.txt";
     static {
         // 初始化所有支出類型列表
         allExpense.put("food", new ArrayList<>());

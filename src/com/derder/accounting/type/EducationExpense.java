@@ -1,4 +1,4 @@
-package com.derder.accounting;
+package com.derder.accounting.type;
 
 public class EducationExpense extends ExpenseEntry{
     public EducationExpense(int year,int month,int day,String description, double amount) {
