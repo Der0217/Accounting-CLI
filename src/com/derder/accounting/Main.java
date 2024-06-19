@@ -10,7 +10,7 @@ public class Main {
     static ExpenseManager contral = new ExpenseManager();
     static Scanner input = new Scanner(System.in);
     static enum Expense{
-        food ,clothing ,education ,entertainment,housing ,other ,tax ,transportation
+        food ,clothes ,education ,entertainment,housing ,other ,tax ,transportation
     }
     static{
         try {
@@ -146,7 +146,7 @@ public class Main {
         System.out.println("-----------------------------------------------");
     }
     public static void printExpenseTypes(){
-        System.out.println("1.food    2.clothing 3.education 4.entertainment ");
+        System.out.println("1.food    2.clothes 3.education 4.entertainment ");
         System.out.println("5.housing 6.other    7.tax       8.transportation  9.返回到主選單");
     }
 

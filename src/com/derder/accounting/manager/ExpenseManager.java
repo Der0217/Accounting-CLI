@@ -14,7 +14,7 @@ public class ExpenseManager {
     static {
         // 初始化所有支出類型列表
         allExpense.put("food", new ArrayList<>());
-        allExpense.put("clothing", new ArrayList<>());
+        allExpense.put("clothes", new ArrayList<>());
         allExpense.put("education", new ArrayList<>());
         allExpense.put("entertainment", new ArrayList<>());
         allExpense.put("housing", new ArrayList<>());

@@ -7,7 +7,7 @@ public class ExpenseEntryFactory {
         switch (type) {
             case "food":
                 return new FoodExpense(year, month, day, description, amount);
-            case "clothing":
+            case "clothes":
                 return new ClothingExpense(year, month, day, description, amount);
             case "education":
                 return new EducationExpense(year, month, day, description, amount);

@@ -1,6 +1,7 @@
-clothing\2024\6\12\To\8763.0
-clothing\2024\6\12\asd\123.0
-clothing\2024\6\12\Hello\123.0
-clothing\2024\6\12\asd\123.0
 food\2024\6\12\被韓吉騙走30萬\300000.0
 food\2024\6\13\asd\123.0
+food\2024\6\19\麵包\13.0
+clothes\2024\6\12\To\8763.0
+clothes\2024\6\12\asd\123.0
+clothes\2024\6\12\Hello\123.0
+clothes\2024\6\12\asd\123.0
